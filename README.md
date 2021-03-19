@@ -1,39 +1,69 @@
-# kata-bootstraps
+Java Starting Point
+-------------------
 
-[![java-ci-badge]][ci-actions]
-[![php-ci-badge]][ci-actions]
-[![rust-ci-badge]][ci-actions]
-[![python-ci-badge]][ci-actions]
-[![scala-ci-badge]][ci-actions]
-[![js-ci-badge]][ci-actions]
-[![ts-ci-badge]][ci-actions]
-[![go-ci-badge]][ci-actions]
+Project files for the three most popular Java IDEs (Eclipse,
+NetBeans, and IntelliJ) are included with this starting point.
+Instructions for each IDE are below.
+
+In addition to the IDE project files, the starting point also includes
+a [Maven](http://maven.apache.org/) POM. If you prefer, feel free to use Maven directly (or to
+create our own IDE configuration).
+
+This starting point includes the following libraries:
+
+* [JUnit 4.8.2](http://www.junit.org/)
+* [fest 1.4](http://code.google.com/p/fest/)
+* [Mockito 1.8.5](http://code.google.com/p/mockito/)
+
+### Java
+Of course, to develop in Java, you need Java.
+
+Install [Java SE SDK 6](http://www.oracle.com/technetwork/java/javase/downloads/index.html). 
+At the time this file was written, the latest version for download was
+[Java SE 6 Update 29](http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u29-download-513648.html).
+
+### Eclipse
+#### Install Pre-requisites
+Install [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/).
+
+**Note:** the starting point was tested on the Indigo Eclipse Release.
+
+#### Import Starting Point
+1. Launch Eclipse
+2. Select _File -> Import.._
+3. Select _General -> Existing Projects into Workspace_
+4. Browse to where you have the starting points checked-out.
+5. Select the **java** folder
+6. Make sure **conways-game-of-life-java** is checked in the Projects list.
+7. Click _Finish_
+8. Enjoy!
 
 
+### NetBeans
+#### Install Pre-requisites
+Install [NetBeans](http://netbeans.org/downloads/).
+You only need the edition which contains just Java SE. You don't need
+any of the other tools for the Coderetreat.
 
-Empty projects for e.g. Katas with testing support in different languages
-(usually with a failing test, in order to know where to start)
+**Note:** the starting point was tested on version 7.0.1.
 
-On the top level you can find different languages that are supported.
+#### Import Starting Point
+1. Launch NetBeans
+2. Select _File -> Open Project.._
+3. Browse to where you have the starting points checked-out.
+4. Select the **java** folder.
+5. Click _Open Project_
+6. Enjoy!
 
-On the second level (in a particular language's directory) you'll find
-different testing frameworks that are supported.
+### IntelliJ IDEA
+#### Install Pre-requisites
+Install [IntelliJ IDEA Community Edition](http://www.jetbrains.com/idea/download/).
 
-In each directory for a particular framework, there is always `README.md` file
-that contains various useful information. At minimum it contains the
-information on how to install the dependencies and run the tests.
+**Note:** the starting point was tested on version 10.5.
 
-You are welcome to contribute by submitting likewise a min setup for your language or framework of choice with a pull request. If possible please also create a [github workflow](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-a-workflow#in-this-article).
-
-----
-[Cookiecutter](https://github.com/audreyr/cookiecutter) has a similar goal and also supports multiple languages for setting up a bare project.
-
-[java-ci-badge]:https://github.com/swkBerlin/kata-bootstraps/workflows/Java%20CI/badge.svg "CI build status"
-[php-ci-badge]:https://github.com/swkBerlin/kata-bootstraps/workflows/PHP%20CI/badge.svg "CI build status"
-[rust-ci-badge]:https://github.com/swkBerlin/kata-bootstraps/workflows/Rust%20CI/badge.svg "CI build status"
-[python-ci-badge]:https://github.com/swkBerlin/kata-bootstraps/workflows/Python%20CI/badge.svg "CI build status"
-[scala-ci-badge]:https://github.com/swkBerlin/kata-bootstraps/workflows/Scala%20CI/badge.svg "CI build status"
-[js-ci-badge]:https://github.com/swkBerlin/kata-bootstraps/workflows/js%20CI/badge.svg "CI build status"
-[ts-ci-badge]:https://github.com/swkBerlin/kata-bootstraps/workflows/ts%20CI/badge.svg "CI build status"
-[go-ci-badge]:https://github.com/swkBerlin/kata-bootstraps/workflows/GO%20CI/badge.svg "CI build status"
-[ci-actions]:https://github.com/swkBerlin/kata-bootstraps/actions
+#### Import Starting Point
+1. Launch IntelliJ IDEA
+2. Select _File -> Open Project..._
+3. Browse and select the **java** folder
+4. Click _Ok_
+5. Enjoy!
