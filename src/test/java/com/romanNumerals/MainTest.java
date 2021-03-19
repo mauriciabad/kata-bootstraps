@@ -24,6 +24,16 @@ public class MainTest {
     public void unsupported_too_big() {
         Main.convert(4000);
     }
+
+    @Test(expected = InvalidRomanNumberException.class)
+    public void unsupported_zero() {
+        Main.convert(0);
+    }
+
+    @Test(expected = InvalidRomanNumberException.class)
+    public void unsupported_negative() {
+        Main.convert(-1);
+    }
 }
 //1,2,3,4,5,6,7,8,9
 //1,5,10,50,100,500,1000
